@@ -6,183 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+    <!-- link a css -->
+    <link rel="stylesheet" href="../css/main.css">
+
     <!-- titulo de la pagina -->
     <title>categorias</title>
      
     <!-- iconos de pagina -->
     <script src="https://kit.fontawesome.com/25aef9599c.js" crossorigin="anonymous"></script>
 
-    <!-- link a css -->
-    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <!-- navegador sitio -->
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-light">
         <!-- icono de la pagina -->
         <nav class="inicio-logo">
             <a href="../index.html"><img src="../imagenes/hypebox.logo.jpg" alt="logo hype box"></a>
         </nav>
-        <!-- menu pagina -->
-        <ul>
-            <li>
-                <a href="./mi-cuenta.html">mi cuenta</a>
-            </li>
-            <li>
-                <a href="../index.html#contacto">contacto</a>
-            </li>
-            <li>
-                <a href="../index.html#nosotros">nosotros</a>
-            </li>
-        </ul>
-    </nav>
 
-    <div id="categorias-cont"> 
+        <div class="container-fluid">
 
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
 
-        <input type="radio" name="filtro" id="todos" checked="yes">
-        <label for="todos">todos</label> 
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mi-cuenta.html">Mi Cuenta</a>
+                    </li>
 
-        <input type="radio" name="filtro" id="sneakers">
-        <label for="sneakers">sneakers</label>
-                    
-        <input type="radio" name="filtro" id="hoodie">
-        <label for="hoodie">hoodie</label>
-                    
-        <input  type="radio" name="filtro" id="t-shirts">
-        <label for="t-shirts">t-shirts</label>
-                    
-        <input type="radio" name="filtro" id="accesorios">
-        <label for="accesorios">accesorios</label>
-                    
-        
-        <div id="elementos-cat">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contacto">Contacto</a>
+                    </li>
 
-            <div class="img-catalogo">
-                <img src="../imagenes/candadosupreme.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Transparent Lock Clear</h5>
-                </div>
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#nosotros">Nosotros</a>
+                    </li>
 
-            <div class="img-catalogo">
-                <img src="../imagenes/BAPE A Bathing Ape Check by Bathing Tee.png" class="t-shirts">
-                <div class="t-shirts">
-                    <h5 class="text-catalogo">BAPE A Bathing Ape Check by Bathing Tee</h5>
-                </div>
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/categorias.html">Categorias</a>
+                    </li>
 
-            <div class="img-catalogo">
-                <img src="../imagenes/Fear of God Essentials Hoodie.png" class="hoodie">
-                <div class="hoodie">
-                    <h5 class="text-catalogo">Fear of God Essentials Hoodie</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/FELPA GUCCI BAMBINI.png" class="hoodie">
-                <div class="hoodie">
-                    <h5 class="text-catalogo">Felpa Gucci Banbini Hoodie</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/jbalvin.airjordan.1high.jpg" class="sneakers">
-                <div class="sneakers">
-                    <h5 class="text-catalogo">j Balvin x Air Jordan 1 High</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/nike.blazer.mid'77.vintage.jpg" class="sneakers">
-                <div class="sneakers">
-                    <h5 class="text-catalogo">Nike Blazer Mid '77 Vintage</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/nike.dunk.orange.jpg" class="sneakers">
-                <div class="sneakers">
-                    <h5 class="text-catalogo">Nike Dunk Orange</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/nike.dunk.sb.travis.jpg" class="sneakers">
-                <div class="sneakers">
-                    <h5 class="text-catalogo">Nike SB Dunk Low x Travis Scott</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/oreosupreme.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme X Oreo</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/platosupreme.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Chicken Dinner Plate Ashtray</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/sillaspreme.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Lawn Chair</h5>
-                </div>
-            </div>
-            <div class="img-catalogo">
-                <img src="../imagenes/Supreme André 3000 Tee.png" class="t-shirts">
-                <div class="t-shirts">
-                    <h5 class="text-catalogo">Supreme André 3000 Tee</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/Supreme Team Chenille Hooded Sweatshirt.png" class="hoodie">
-                <div class="hoodie">
-                    <h5 class="text-catalogo">Hoodie Supreme Team Chenille Hooded</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/supreme toca disco.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Numark PT01</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/supreme.fw19.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Hanging Lantern</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/supreme.x.packlite.kayak.jpg.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Transparent Lock Clear</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/supremebinocular.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Advanced Elements Packlite Kayak</h5>
-                </div>
-            </div>
-
-            <div class="img-catalogo">
-                <img src="../imagenes/supremexspringsummer.png" class="accesorios-cat">
-                <div class="accesorios-cat">
-                    <h5 class="text-catalogo">Supreme Leatherman Squirt</h5>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>  
+    </nav>
+
+    <!-- titulo accesorios -->
+    <h1 class="title-accesorios">accesorios</h1>
+
+    <div class="cont-accesorios">
+        <div class="img-accesorios">
+            <img src="../imagenes/candadosupreme.png" alt="candado supreme">
+            <h6 class="text-accesorios">SUPREME TRANSPARENT LOCK CLEAR</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/oreosupreme.png" alt="oreo supreme">
+            <h6 class="text-accesorios">SUPREME X OREO</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/platosupreme.png" alt="plato supreme">
+            <h6 class="text-accesorios">SUPREME CHICKEN DINNER PLATE ASHTRAY</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/sillaspreme.png" alt="silla supreme">
+            <h6 class="text-accesorios">SUPREME LAWN CHAIR</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/supreme toca disco.png" alt="supreme tocadisco">
+            <h6 class="text-accesorios">SUPREME NUMARK PT01</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/supreme.x.packlite.kayak.jpg.png" alt="supreme kayak">
+            <h6 class="text-accesorios">SUPREME PACKLITE KAYAK</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/supremebinocular.png" alt="supreme binocular">
+            <h6 class="text-accesorios">SUPREME BINOCULAR</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/supremexspringsummer.png" alt="supreme binocular">
+            <h6 class="text-accesorios">SUPREME LEATHERMAN SQUIRT</h6>
+        </div>
+        <div class="img-accesorios">
+            <img src="../imagenes/supreme.fw19.png" alt="supreme binocular">
+            <h6 class="text-accesorios">SUPREME HANGING LANTERN</h6>
+        </div>
+
+    </div>
     
     <!-- pie de pagina -->
     <footer class="pie-pagina">

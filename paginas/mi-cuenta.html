@@ -5,37 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+    <!-- link a css -->
+    <link rel="stylesheet" href="../css/main.css">
      
     <!-- iconos de pagina -->
     <script src="https://kit.fontawesome.com/25aef9599c.js" crossorigin="anonymous"></script>
 
     <!-- titulo de la pagina  -->
     <title>mi cuenta</title>
-
-    <!-- link a css -->
-    <link rel="stylesheet" href="../css/main.css">
     
 </head>
 <body>
     <!-- navegador sitio -->
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-light">
         <!-- icono de la pagina -->
         <nav class="inicio-logo">
             <a href="../index.html"><img src="../imagenes/hypebox.logo.jpg" alt="logo hype box"></a>
         </nav>
 
-        <!-- menu pagina -->
-        <ul>
-            <li>
-                <a href="../paginas/categorias.html">categorias</a>
-            </li>
-            <li>
-                <a href="../index.html #contacto">contacto</a>
-            </li>
-            <li>
-                <a href="../index.html #nosotros">nosotros</a>
-            </li>
-        </ul>
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contacto">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#nosotros">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/categorias.html">Categorias</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </nav>
     
 </body>
@@ -44,12 +56,12 @@
 
     <h2>iniciar sesion</h2>
 
-        <label for="">correo</label>
-        <input type="email">
-        <label for="">password</label>
-        <input type="password">
+    <label for="">correo</label>
+    <input type="email">
+    <label for="">password</label>
+    <input type="password">
 
-        <button>iniciar sesion</button>
+    <button>iniciar sesion</button>
 
     <div class="numero">
 

@@ -5,58 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+    <!-- link a css -->
+    <link rel="stylesheet" href="../css/main.css">
+
     <!-- titulo de la pagina -->
     <title>zapatillas</title>
      
     <!-- iconos de pagina -->
     <script src="https://kit.fontawesome.com/25aef9599c.js" crossorigin="anonymous"></script>
 
-    <!-- link a css -->
-    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 
     <!-- navegador sitio -->
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-light">
         <!-- icono de la pagina -->
         <nav class="inicio-logo">
             <a href="../index.html"><img src="../imagenes/hypebox.logo.jpg" alt="logo hype box"></a>
         </nav>
 
-        <!-- menu pagina -->
-        <ul>
-            <li>
-                <a href="./categorias.html">categorias</a>
-            </li>
-            <li>
-                <a href="../index.html #contacto">contacto</a>
-            </li>
-            <li>
-                <a href="../index.html #nosotros">nosotros</a>
-            </li>
-        </ul>
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mi-cuenta.html">Mi Cuenta</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contacto">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#nosotros">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/categorias.html">Categorias</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- titulo sneakers -->
-    <h1 class="title-catalogo">sneakers</h1>
+    <h1 class="title-zapatillas">zapatillas</h1>
 
     <!-- contenido de catalogo -->
-    <div class="cont-catalogo">
-        <div class="img-catalogo">
+    <div class="cont-zapatillas">
+        <div class="img-zapatillas">
             <img src="../imagenes/jbalvin.airjordan.1high.jpg" alt="j balvin">
-            <h5 class="text-catalogo">j Balvin x Air Jordan 1 High</h5>
+            <h6 class="text-zapatillas">j Balvin x Air Jordan 1 High</h6>
         </div>
-        <div class="img-catalogo">
+        <div class="img-zapatillas">
             <img src="../imagenes/nike.blazer.mid'77.vintage.jpg" alt="nike blazer">
-            <h5 class="text-catalogo">Nike Blazer Mid '77 Vintage</h5>
+            <h6 class="text-zapatillas">Nike Blazer Mid '77 Vintage</h6>
         </div>
-        <div class="img-catalogo">
+        <div class="img-zapatillas">
             <img src="../imagenes/nike.dunk.orange.jpg" alt="nike dunk">
-            <h5 class="text-catalogo">Nike Dunk Orange</h5>
+            <h6 class="text-zapatillas">Nike Dunk Orange</h6>
         </div>
-        <div class="img-catalogo">
+        <div class="img-zapatillas">
             <img src="../imagenes/nike.dunk.sb.travis.jpg" alt="nike dunk travis">
-            <h5 class="text-catalogo">Nike SB Dunk Low x Travis Scott</h5>
+            <h6 class="text-zapatillas">Nike SB Dunk Low x Travis Scott</h6>
         </div>
         
     </div>
