@@ -1,0 +1,25 @@
+/* formulario inicio de sesion */
+.form-sesion {
+    margin-top: 100px;
+    width: 340px;
+    height: 378px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: max-content;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+    position: relative;
+
+        .numero {
+            right: 29px;
+        }
+}
+
+.form {
+    .password-01 {
+        -webkit-text-security: disc !important;
+    }
+}

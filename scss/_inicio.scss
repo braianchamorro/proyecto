@@ -1,0 +1,163 @@
+/* banner inicio */
+.hype-box {
+    width: 100%;
+    height: 570px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* img categorias */
+.contenedor{
+    margin-top: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.raw{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+.fon{
+    background-color: #dddddd;
+    border: solid #dddddd 1px;
+    padding: 8rem 1.5rem;
+    margin: 0px;
+    display: flex;
+}
+
+.columnas {
+    a{
+        font-size: 40px;
+        text-decoration: none;
+        border: #000;
+        color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        text-transform: uppercase;
+        text-shadow: 3px 2px #000;
+    }
+}
+
+.ropa{
+    background-image: url(../imagenes/Ropa.jpg);
+    padding: 100px 100px;
+}
+
+.accesorios{
+    background-image: url(../imagenes/IMG_5646.jpg);
+    padding: 100px 33px;
+}
+
+.zapatillas{
+    background-image: url(../imagenes/Sneakers.jpg);
+    padding: 100px 33px;
+}
+
+
+/* nosotros */
+.nosotros {
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info-nosotros {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* mapa */
+.mapa {
+    text-align: center;
+    margin: 30px;
+}
+
+
+/* contacto */
+.form {
+    margin-top: 100px;
+    width: 340px;
+    height: 492px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(55vh - 220px) auto;
+    padding: 20px 30px;
+    max-width:calc(100vw -40px);
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+    position: relative;
+}
+
+h2 {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    width: 150px;
+    color: rgb(5, 5, 5);
+    border-bottom: 3px solid black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "montserrat", sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid rgb(161, 160, 160);
+
+    input:focus {
+        border-bottom: 2px solid lightblue;
+    }
+}
+
+p::before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "montserrat", sans-serif;
+    border: 2px solid gray;
+    background: 0;
+    color:#000;
+    cursor: pointer;
+    transition: all .3s;
+
+    button:hover {
+        background: gray;
+        color: white;
+    }
+}
+
+.numero {
+    position: absolute;
+    bottom: -15px;
+    right: 23px;
+    background: black;
+    color: white;
+    width: 283px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px --14px #000;
+}
+
+span {
+    margin: 0 5px 0 15px;
+}

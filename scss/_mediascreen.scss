@@ -1,0 +1,224 @@
+@media screen and (max-width: 1025px) {
+
+    /* footer */
+    .pie-pagina .grupo-01 {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* navbar bootstrap */
+    .navbar-expand-lg {
+        .navbar-collapsed {
+            display: flex;
+        }
+    }
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* footer */
+    .pie-pagina .grupo-01 {
+        max-width: 600px;
+    }
+
+    /* banner inicio */
+    .hype-box {
+        width: 100%;
+        height: 437px;
+    }
+
+    /* imagenes inicio */
+    .raw {
+        flex-direction: column;
+        margin: 190px;
+    }
+    .fon {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    /* banner inicio */
+    .hype-box {
+        height: 280px;
+    }
+
+    /* imagenes inicio */
+    .raw {
+        margin: 5px;
+    }
+
+    /* footer */
+    .box {
+        grid-area: nosotros;
+    }
+    .box2 {
+        grid-area: redes;
+    }
+    .grupo-02 {
+        grid-area: copi;
+    }
+    .grupo-01 {
+        grid-template-areas: 
+        "nosotros redes"
+        "copi copi"
+        ;
+    }
+    .pie-pagina .grupo-01 {
+        width: 100%;
+        padding: 5px;
+    }
+    .pie-pagina .grupo-02 {
+        margin-top: -40px;
+    }
+    .pie-pagina .box {
+        margin-left: 30px;
+    }
+    .pie-pagina .box2 {
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    /* formulario */
+    .numero {
+        right: 27px;
+    }
+
+    /* banner de inicio */
+    .hype-box {
+        height: 240px;
+    }
+
+    /* imagenes inicio */
+    #categorias-cont label {
+        padding: 2px 22px;
+        margin: 15px;
+    }
+
+    /* footer */
+    .pie-pagina .grupo-01 {
+        grid-gap: 2px;
+    }
+    .pie-pagina .box {
+        margin-left: 38px;
+    }
+    .pie-pagina {
+        .grupo-02 {
+            margin-top: 10px;
+
+                small {
+                    margin-left: 22px;
+                }
+        }
+    }
+    .grupo-01{
+        h2 {
+            margin: 11px;
+            padding-bottom: 5px;
+            width: 130px;
+        }
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    /* navbar bootstrap */
+    .navbar {
+        --bs-navbar-padding-y: 0px;
+    }
+
+    /* banner inicio */
+    .hype-box {
+        height: 215px;
+    }
+
+    /* imagenes inicio */
+    .fon {
+        padding: 6rem 1rem;
+    }
+    .ropa {
+        padding: 80px 80px;
+    }
+    .accesorios {
+        padding: 80px 10px;
+    }
+    .zapatillas {
+        padding: 80px 16px;
+    }
+
+    /* formulario */
+    .form {
+        width: 295px;
+    }
+    
+    .form-sesion {
+        #contacto {
+            .numero {
+                width: 280px;
+            }
+        }
+    }
+
+    /* formulario mi cuenta */
+    .mi-cuentafor {
+
+        margin-top: 100px;
+        width: 280px;
+        height: 318px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0 40px -10px #000;
+        margin: calc(50vh - 220px) auto;
+        padding: 20px 30px;
+        max-width: max-content;
+        box-sizing: border-box;
+        font-family: "montserrat", sans-serif;
+        position: relative;
+        .numero {
+            width: 280px;
+            height: 48px;
+            right: 0px;
+        }
+    }
+
+    /* mapa inicio */
+    .mapa {
+        margin: 5px;
+    }
+    
+    /* footer */
+    .grupo-01 {
+        grid-template-areas: 
+        "nosotros nosotros"
+        "redes redes"
+        "copi copi"
+        ;
+    }
+    .grupo-01 h2 {
+        width: 127px;
+    }
+    .pie-pagina .box {
+        margin-left: 82px;
+        text-align: center;
+    }
+    .pie-pagina .box p {
+        flex-direction: row;
+        margin-left: 14px;
+    }
+    .pie-pagina .box2 {
+        margin-top: 5px;
+        margin-left: 90px;
+        width: 125px;
+    }
+    .pie-pagina .grupo-02 {
+        margin-left: 86px;
+        margin-top: 5px;
+    }
+}

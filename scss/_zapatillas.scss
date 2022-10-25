@@ -1,0 +1,33 @@
+/* pagina zapatillas */
+.title-zapatillas {
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.cont-zapatillas {
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cont-zapatillas {
+    .img-zapatillas{
+        img {
+            height: 300px;
+            padding: 10px;
+            margin-top: 15px;
+        }
+    }
+} 
+
+.text-zapatillas {
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px;
+}
+    

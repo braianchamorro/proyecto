@@ -1,157 +1,484 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: hwb(0 93% 7%);
-}
+/* logo */
+.inicio-logo img {
+  align-items: center;
+  width: 170px;
+  height: 70px; }
+
+/* navbar bootstrap */
+.navbar {
+  background-color: white; }
+
+.container-fluid {
+  flex-direction: row; }
+
+.navbarbutton {
+  border-radius: 8px;
+  padding: 2px 0.5px;
+  border-color: #a7a6a6; }
+
+.navbarbutton:hover {
+  background-color: #c8c8c8; }
+
+/* footer */
+.pie-pagina {
+  width: 100%;
+  background-color: #dddddd; }
+
+.pie-pagina .grupo-01 {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+
+.pie-pagina .grupo-01 .box .box2 h2 {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 20px; }
+
+.pie-pagina .grupo-01 .box .box2 p {
+  color: #000;
+  margin-bottom: 10px; }
+
+.pie-pagina .grupo-01 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  left: 45px;
+  line-height: 45px;
+  color: #000;
+  margin-right: 10px;
+  background-color: #dddddd;
+  text-align: center;
+  transition: all 300ms ease; }
+
+.pie-pagina .grupo-01 .red-social a:hover {
+  color: #ff00b3; }
+
+.pie-pagina .grupo-02 {
+  margin-top: 100px;
+  text-align: center;
+  color: #000; }
 
 /* banner inicio */
 .hype-box {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  width: 100%;
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /* img categorias */
-.contenedor{
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-.raw{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:center;
-    box-sizing: border-box;
-}
-.fon{
-    background-color: #dddddd;
-    border: solid #dddddd 1px;
-    padding: 8rem 2rem;
-    margin: 0px;
-    display: flex;
-}
-.columnas a{
-    font-size: 40px;
-    text-decoration: none;
-    border: #000;
-    color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    text-transform: uppercase;
-    text-shadow: 3px 2px #000;
-}
-.ropa{
-    background-image: url(../imagenes/ropa.png);
-    padding: 6rem 6rem;
-}
-.accesorios{
-    background-image: url(../imagenes/accesorios.png);
-    padding: 6rem 1rem;
-}
-.zapatillas{
-    background-image: url(../imagenes/zapatillas.png);
-    padding: 6rem 2rem;
-}
+.contenedor {
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: 5px; }
+
+.raw {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  box-sizing: border-box; }
+
+.fon {
+  background-color: #dddddd;
+  border: solid #dddddd 1px;
+  padding: 8rem 1.5rem;
+  margin: 0px;
+  display: flex; }
+
+.columnas a {
+  font-size: 40px;
+  text-decoration: none;
+  border: #000;
+  color: white;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  text-shadow: 3px 2px #000; }
+
+.ropa {
+  background-image: url(../imagenes/Ropa.jpg);
+  padding: 100px 100px; }
+
+.accesorios {
+  background-image: url(../imagenes/IMG_5646.jpg);
+  padding: 100px 33px; }
+
+.zapatillas {
+  background-image: url(../imagenes/Sneakers.jpg);
+  padding: 100px 33px; }
 
 /* nosotros */
 .nosotros {
-    padding: 15px;
-    text-align: center;
-    text-transform: uppercase;
-}
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
 .info-nosotros {
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 /* mapa */
 .mapa {
-    text-align: center;
-    margin: 30px;
-}
+  text-align: center;
+  margin: 30px; }
 
 /* contacto */
 .form {
-    margin-top: 100px;
-    width: 340px;
-    height: 500px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
-    padding: 20px 30px;
-    max-width:calc(100vw -40px);
-    box-sizing: border-box;
-    font-family: "montserrat", sans-serif;
-    position: relative;
-}
+  margin-top: 100px;
+  width: 340px;
+  height: 492px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(55vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw -40px);
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+  position: relative; }
+
 h2 {
-    margin: 10px 0;
-    padding-bottom: 10px;
-    width: 180px;
-    color: rgb(5, 5, 5);
-    border-bottom: 3px solid black;
-}
+  margin: 10px 0;
+  padding-bottom: 5px;
+  width: 150px;
+  color: #050505;
+  border-bottom: 3px solid black; }
+
 input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    background: none;
-    outline: none;
-    resize: none;
-    border: 0;
-    font-family: "montserrat", sans-serif;
-    transition: all .3s;
-    border-bottom: 2px solid gray;
-}
-input:focus {
-    border-bottom: 2px solid lightblue;
-}
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "montserrat", sans-serif;
+  transition: all .3s;
+  border-bottom: 2px solid #a1a0a0; }
+  input input:focus {
+    border-bottom: 2px solid lightblue; }
+
 p::before {
-    content: attr(type);
-    display: block;
-    margin: 28px 0 0;
-    font-size: 14px;
-    color: gray;
-}
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: gray; }
+
 button {
-    float: right;
-    padding: 8px 12px;
-    margin: 8px 0 0;
-    font-family: "montserrat", sans-serif;
-    border: 2px solid gray;
-    background: 0;
-    color:#000;
-    cursor: pointer;
-    transition: all .3s;
-}
-button:hover {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "montserrat", sans-serif;
+  border: 2px solid gray;
+  background: 0;
+  color: #000;
+  cursor: pointer;
+  transition: all .3s; }
+  button button:hover {
     background: gray;
-    color: white;   
-}
+    color: white; }
+
 .numero {
-    position: absolute;
-    bottom: -15px;
-    right: -20px;
-    background: black;
-    color: white;
-    width: 320px;
-    padding: 16px 4px 16px 0;
-    border-radius: 6px;
-    font-size: 13px;
-    box-shadow: 10px 10px 40px --14px #000;
-}
+  position: absolute;
+  bottom: -15px;
+  right: 23px;
+  background: black;
+  color: white;
+  width: 283px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 54px #000; }
+
 span {
-    margin: 0 5px 0 15px;
-}
+  margin: 0 5px 0 15px; }
 
 /* formulario inicio de sesion */
 .form-sesion {
+  margin-top: 100px;
+  width: 340px;
+  height: 378px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: max-content;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+  position: relative; }
+  .form-sesion .numero {
+    right: 29px; }
+
+.form .password-01 {
+  -webkit-text-security: disc !important; }
+
+/* pagina ropa */
+.title-ropa {
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.cont-ropa {
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cont-ropa .img-ropa img {
+  height: 300px;
+  padding: 10px;
+  margin-top: 15px; }
+
+.text-ropa {
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px; }
+
+/* pagina accesorios */
+.title-accesorios {
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.cont-accesorios {
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cont-accesorios .img-accesorios img {
+  height: 300px;
+  padding: 10px;
+  margin-top: 15px; }
+
+.text-accesorios {
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px; }
+
+/* pagina zapatillas */
+.title-zapatillas {
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.cont-zapatillas {
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cont-zapatillas .img-zapatillas img {
+  height: 300px;
+  padding: 10px;
+  margin-top: 15px; }
+
+.text-zapatillas {
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px; }
+
+/* pagina categorias */
+.cont-catalogo {
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cont-catalogo .img-catalogo img {
+  height: 300px;
+  padding: 10px;
+  margin-top: 15px; }
+
+.text-catalogo {
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px; }
+
+#categorias-cont {
+  text-align: center;
+  margin: 30px;
+  text-transform: uppercase; }
+
+#elementos-cat {
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#elementos-cat .img-catalogo img {
+  height: 300px;
+  padding: 10px;
+  margin-top: 15px; }
+
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .t-shirts,
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .hoodie {
+  display: none; }
+
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .sneakers,
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .t-shirts {
+  display: none; }
+
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .t-shirts,
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .hoodie,
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .sneakers {
+  display: none; }
+
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .sneakers,
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .hoodie,
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .accesorios-cat {
+  display: none; }
+
+#categorias-cont input {
+  display: none; }
+
+#categorias-cont label {
+  display: inline-block;
+  color: black;
+  border: solid black 1px;
+  border-radius: 60px;
+  background-color: #69696925;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer; }
+
+#categorias-cont label:hover {
+  background-color: #aeaeaeb7;
+  border: solid black 1px;
+  border-radius: 60px; }
+
+#categorias-cont input[type="radio"]:checked + label {
+  background-color: #aeaeaeb7;
+  border: solid black 1px;
+  border-radius: 60px; }
+
+@media screen and (max-width: 1025px) {
+  /* footer */
+  .pie-pagina .grupo-01 {
+    max-width: 970px; } }
+
+@media screen and (max-width: 768px) {
+  /* navbar bootstrap */
+  .navbar-expand-lg .navbar-collapsed {
+    display: flex; }
+  .container-fluid {
+    display: flex;
+    flex-direction: row; }
+  /* footer */
+  .pie-pagina .grupo-01 {
+    max-width: 600px; }
+  /* banner inicio */
+  .hype-box {
+    width: 100%;
+    height: 437px; }
+  /* imagenes inicio */
+  .raw {
+    flex-direction: column;
+    margin: 190px; }
+  .fon {
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 426px) {
+  /* banner inicio */
+  .hype-box {
+    height: 280px; }
+  /* imagenes inicio */
+  .raw {
+    margin: 5px; }
+  /* footer */
+  .box {
+    grid-area: nosotros; }
+  .box2 {
+    grid-area: redes; }
+  .grupo-02 {
+    grid-area: copi; }
+  .grupo-01 {
+    grid-template-areas: "nosotros redes" "copi copi"; }
+  .pie-pagina .grupo-01 {
+    width: 100%;
+    padding: 5px; }
+  .pie-pagina .grupo-02 {
+    margin-top: -40px; }
+  .pie-pagina .box {
+    margin-left: 30px; }
+  .pie-pagina .box2 {
+    margin-top: 29px; } }
+
+@media screen and (max-width: 376px) {
+  /* formulario */
+  .numero {
+    right: 27px; }
+  /* banner de inicio */
+  .hype-box {
+    height: 240px; }
+  /* imagenes inicio */
+  #categorias-cont label {
+    padding: 2px 22px;
+    margin: 15px; }
+  /* footer */
+  .pie-pagina .grupo-01 {
+    grid-gap: 2px; }
+  .pie-pagina .box {
+    margin-left: 38px; }
+  .pie-pagina .grupo-02 {
+    margin-top: 10px; }
+    .pie-pagina .grupo-02 small {
+      margin-left: 22px; }
+  .grupo-01 h2 {
+    margin: 11px;
+    padding-bottom: 5px;
+    width: 130px; } }
+
+@media screen and (max-width: 321px) {
+  /* navbar bootstrap */
+  .navbar {
+    --bs-navbar-padding-y: 0px; }
+  /* banner inicio */
+  .hype-box {
+    height: 215px; }
+  /* imagenes inicio */
+  .fon {
+    padding: 6rem 1rem; }
+  .ropa {
+    padding: 80px 80px; }
+  .accesorios {
+    padding: 80px 10px; }
+  .zapatillas {
+    padding: 80px 16px; }
+  /* formulario */
+  .form {
+    width: 295px; }
+  .form-sesion #contacto .numero {
+    width: 280px; }
+  /* formulario mi cuenta */
+  .mi-cuentafor {
     margin-top: 100px;
-    width: 340px;
-    height: 400px;
+    width: 280px;
+    height: 318px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
@@ -160,408 +487,33 @@ span {
     max-width: max-content;
     box-sizing: border-box;
     font-family: "montserrat", sans-serif;
-    position: relative;
-}
-.form .password-01 {
-    -webkit-text-security: disc !important;
-}
+    position: relative; }
+    .mi-cuentafor .numero {
+      width: 280px;
+      height: 48px;
+      right: 0px; }
+  /* mapa inicio */
+  .mapa {
+    margin: 5px; }
+  /* footer */
+  .grupo-01 {
+    grid-template-areas: "nosotros nosotros" "redes redes" "copi copi"; }
+  .grupo-01 h2 {
+    width: 127px; }
+  .pie-pagina .box {
+    margin-left: 82px;
+    text-align: center; }
+  .pie-pagina .box p {
+    flex-direction: row;
+    margin-left: 14px; }
+  .pie-pagina .box2 {
+    margin-top: 5px;
+    margin-left: 90px;
+    width: 125px; }
+  .pie-pagina .grupo-02 {
+    margin-left: 86px;
+    margin-top: 5px; } }
 
-
-/* pie de pagina */
-.pie-pagina {
-    width: 100%;
-    background-color: #dddddd;
-}
-.pie-pagina .grupo-01 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.pie-pagina .grupo-01 .box .box2 h2 {
-    color: #000000;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-.pie-pagina .grupo-01 .box .box2 p {
-    color: #000;
-    margin-bottom: 10px;
-}
-.pie-pagina .grupo-01 .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    left: 45px;
-    line-height: 45px;
-    color: #000;
-    margin-right: 10px;
-    background-color: #dddddd;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.pie-pagina .grupo-01 .red-social a:hover {
-    color: #ff00b3; 
-}
-.pie-pagina .grupo-02 {
-    margin-top: 100px;
-    text-align: center;
-    color: #000;
-}
-
-/* pagina categorias */
-.cont-catalogo {
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.cont-catalogo .img-catalogo img{
-    height: 300px;
-    padding: 10px;
-    margin-top: 15px;
-}
-.text-catalogo {
-    text-align: center;   
-    margin-top: 2px;
-    padding: 5px;
-}
-#categorias-cont {
-    text-align: center;
-    margin: 30px;
-    text-transform: uppercase;
-}
-#elementos-cat {
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-}
-#elementos-cat .img-catalogo img {
-    height: 300px;
-    padding: 10px;
-    margin-top: 15px;
-}
-#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
-#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .t-shirts,
-#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .hoodie {
-    display: none;
-} 
-#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
-#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .sneakers,
-#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .t-shirts {
-    display: none;
-}
-#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .t-shirts,
-#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .hoodie,
-#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .sneakers {
-    display: none;
-}
-#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .sneakers,
-#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .hoodie,
-#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .accesorios-cat {
-    display: none;
-}
-#categorias-cont input{
-    display: none;
-}
-#categorias-cont label{
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    border: solid black 1px;
-    border-radius: 60px;
-    background-color: #69696925;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 20px;
-    cursor: pointer;
-    
-}
-#categorias-cont label:hover{
-    background-color: #aeaeaeb7;
-    border: solid rgb(0, 0, 0) 1px;
-    border-radius: 60px;
-}
-#categorias-cont input[type="radio"]:checked + label{
-    background-color: #aeaeaeb7;
-    border: solid rgb(0, 0, 0) 1px;
-    border-radius: 60px;
-
-}
-
-/* navbar bootstrap */
-.navbar-expand-lg .navbar-collapsed {
-    flex-direction: row-reverse;
-    display: flex;
-}
-.container-fluid {
-    flex-direction: row-reverse;
-}
-
-/* pagina accesorios */
-.title-accesorios {
-    text-align: center;
-    padding: 25px;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
-.cont-accesorios {
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.cont-accesorios .img-accesorios img {
-    height: 300px;
-    padding: 10px;
-    margin-top: 15px;
-}
-.text-accesorios {
-    text-align: center;
-    margin-top: 2px;
-    padding: 5px;
-}
-
-/* pagina zapatillas */
-.title-zapatillas {
-    text-align: center;
-    padding: 25px;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
-.cont-zapatillas {
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.cont-zapatillas .img-zapatillas img {
-    height: 300px;
-    padding: 10px;
-    margin-top: 15px;
-}
-.text-zapatillas {
-    text-align: center;
-    margin-top: 2px;
-    padding: 5px;
-}
-
-/* pagina ropa */
-.title-ropa {
-    text-align: center;
-    padding: 25px;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
-.cont-ropa {
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.cont-ropa .img-ropa img {
-    height: 300px;
-    padding: 10px;
-    margin-top: 15px;
-}
-.text-ropa {
-    text-align: center;
-    margin-top: 2px;
-    padding: 5px;
-}
-
-@media screen and (max-width: 768px) {
-
-    /* navbar bootstrap */
-    nav {
-        flex-direction: column;
-    }
-    .navbar-expand-lg .navbar-collapsed {
-        display: flex;
-    }
-    .container-fluid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* footer */
-    .pie-pagina .grupo-01 {
-        max-width: 600px;
-    }
-
-    /* banner inicio */
-    .hype-box {
-        width: 100%;
-        height: 437px;
-    }
-
-    /* imagenes inicio */
-    .raw {
-        flex-direction: column;
-        margin: 190px;
-    }
-    .fon {
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 426px) {
-
-    /* banner inicio */
-    .hype-box {
-        height: 280px;
-    }
-
-    /* imagenes inicio */
-    .raw {
-        margin: 5px;
-    }
-
-    /* footer */
-    .box {
-        grid-area: nosotros;
-    }
-    .box2 {
-        grid-area: redes;
-    }
-    .grupo-02 {
-        grid-area: copi;
-    }
-    .grupo-01 {
-        grid-template-areas: 
-        "nosotros redes"
-        "copi copi"
-        ;
-    }
-    .pie-pagina .grupo-01 {
-        width: 100%;
-        padding: 5px;
-    }
-    .pie-pagina .grupo-02 {
-        margin-top: -40px;
-    }
-    .pie-pagina .box {
-        margin-left: 10px;
-    }
-    .pie-pagina .box2 {
-        margin-top: 29px;
-    }
-}
-
-@media screen and (max-width: 376px) {
-
-    /* formulario */
-    .numero {
-        right: 10px;
-    }
-
-    /* banner de inicio */
-    .hype-box {
-        height: 240px;
-    }
-
-    /* imagenes inicio */
-    #categorias-cont label {
-        padding: 2px 22px;
-        margin: 15px;
-    }
-
-    /* footer */
-    .pie-pagina .grupo-01 {
-        grid-gap: 2px;
-    }
-    .pie-pagina .box {
-        margin-left: 4px;
-    }
-    .pie-pagina .grupo-02 {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 321px) {
-
-    /* navbar bootstrap */
-    .navbar {
-        --bs-navbar-padding-y: 0px;
-    }
-
-    /* banner inicio */
-    .hype-box {
-        height: 215px;
-    }
-
-    /* imagenes inicio */
-    .fon {
-        padding: 6rem 1rem;
-    }
-    .ropa {
-        padding: 80px 80px;
-    }
-    .accesorios {
-        padding: 80px 10px;
-    }
-    .zapatillas {
-        padding: 80px 16px;
-    }
-
-    /* formulario */
-    .form {
-        width: 295px;
-    }
-    .numero {
-        width: 280px;
-        right: 7px;
-    }
-
-    /* formulario mi cuenta */
-    .form-sesion {
-        width: 295px;
-        height: 335px;
-    }
-    /* mapa inicio */
-    .mapa {
-        margin: 5px;
-    }
-    
-    /* footer */
-    .grupo-01 {
-        grid-template-areas: 
-        "nosotros nosotros"
-        "redes redes"
-        "copi copi"
-        ;
-    }
-    .grupo-01 h2 {
-        width: 159px;
-    }
-    .pie-pagina .box {
-        margin-left: 75px;
-        text-align: center;
-    }
-    .pie-pagina .box p {
-        flex-direction: row;
-        margin-left: 14px;
-    }
-    .pie-pagina .box2 {
-        margin-top: 5px;
-        margin-left: 90px;
-        width: 125px;
-    }
-    .pie-pagina .grupo-02 {
-        margin-left: 86px;
-        margin-top: 5px;
-    }
-}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hwb(0 93% 7%); }

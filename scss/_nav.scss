@@ -1,0 +1,26 @@
+/* logo */
+.inicio-logo img {
+    align-items: center;
+    width: 170px;
+    height: 70px;
+} 
+
+/* navbar bootstrap */
+.navbar {
+    background-color: white;
+}
+
+.container-fluid {
+    flex-direction: row;
+}
+
+.navbarbutton {
+    border-radius: 8px;
+    padding: 2px 0.5px;
+    border-color: #a7a6a6;
+}
+
+.navbarbutton:hover {
+    background-color: #c8c8c8;
+}
+

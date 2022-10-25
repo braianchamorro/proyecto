@@ -1,0 +1,102 @@
+/* pagina categorias */
+.cont-catalogo {
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cont-catalogo {
+    .img-catalogo {
+        img{
+            height: 300px;
+            padding: 10px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.text-catalogo {
+    text-align: center;   
+    margin-top: 2px;
+    padding: 5px;
+}
+
+#categorias-cont {
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+#elementos-cat {
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#elementos-cat .img-catalogo img {
+    height: 300px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .t-shirts,
+#categorias-cont #sneakers:checked ~ #elementos-cat .img-catalogo .hoodie {
+    display: none;
+} 
+
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .accesorios-cat,
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .sneakers,
+#categorias-cont #hoodie:checked ~ #elementos-cat .img-catalogo .t-shirts {
+    display: none;
+}
+
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .t-shirts,
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .hoodie,
+#categorias-cont #accesorios:checked ~ #elementos-cat .img-catalogo .sneakers {
+    display: none;
+}
+
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .sneakers,
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .hoodie,
+#categorias-cont #t-shirts:checked ~ #elementos-cat .img-catalogo .accesorios-cat {
+    display: none;
+}
+
+#categorias-cont input{
+    display: none;
+}
+
+#categorias-cont {
+    label{
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        border: solid black 1px;
+        border-radius: 60px;
+        background-color: #69696925;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+}
+#categorias-cont {
+    label:hover{
+        background-color: #aeaeaeb7;
+        border: solid rgb(0, 0, 0) 1px;
+        border-radius: 60px;
+    }
+}
+#categorias-cont {
+    input[type="radio"]:checked + label{
+        background-color: #aeaeaeb7;
+        border: solid rgb(0, 0, 0) 1px;
+        border-radius: 60px;
+    }
+}
