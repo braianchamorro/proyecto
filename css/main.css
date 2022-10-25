@@ -431,7 +431,7 @@ span {
 @media screen and (max-width: 376px) {
   /* formulario */
   .numero {
-    right: 27px; }
+    right: 7px; }
   /* banner de inicio */
   .hype-box {
     height: 240px; }
@@ -498,21 +498,21 @@ span {
   /* footer */
   .grupo-01 {
     grid-template-areas: "nosotros nosotros" "redes redes" "copi copi"; }
-  .grupo-01 h2 {
-    width: 127px; }
+    .grupo-01 h2 {
+      width: 127px; }
   .pie-pagina .box {
     margin-left: 82px;
     text-align: center; }
-  .pie-pagina .box p {
-    flex-direction: row;
-    margin-left: 14px; }
-  .pie-pagina .box2 {
-    margin-top: 5px;
-    margin-left: 90px;
-    width: 125px; }
-  .pie-pagina .grupo-02 {
-    margin-left: 86px;
-    margin-top: 5px; } }
+    .pie-pagina .box p {
+      flex-direction: row;
+      margin-left: 14px; }
+      .pie-pagina .box p .box2 {
+        margin-top: 5px;
+        margin-left: 90px;
+        width: 125px; }
+        .pie-pagina .box p .box2 .grupo-02 {
+          margin-left: 86px;
+          margin-top: 5px; } }
 
 body {
   font-family: 'Roboto', sans-serif;
