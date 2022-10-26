@@ -178,9 +178,9 @@ button {
   border: 2px solid gray;
   background: 0;
   color: #000;
-  cursor: pointer;
-  transition: all .3s; }
-  button button:hover {
+  cursor: pointer; }
+  button:hover {
+    transition: all .3s;
     background: gray;
     color: white; }
 
@@ -426,12 +426,12 @@ span {
   .pie-pagina .box {
     margin-left: 30px; }
   .pie-pagina .box2 {
-    margin-top: 29px; } }
+    margin-top: 15px; } }
 
 @media screen and (max-width: 376px) {
   /* formulario */
   .numero {
-    right: 7px; }
+    right: 30px; }
   /* banner de inicio */
   .hype-box {
     height: 240px; }
@@ -439,6 +439,8 @@ span {
   #categorias-cont label {
     padding: 2px 22px;
     margin: 15px; }
+  .zapatillas {
+    padding: 100px 52px; }
   /* footer */
   .pie-pagina .grupo-01 {
     grid-gap: 2px; }
@@ -468,11 +470,12 @@ span {
   .accesorios {
     padding: 80px 10px; }
   .zapatillas {
-    padding: 80px 16px; }
+    padding: 80px 33px; }
   /* formulario */
   .form {
     width: 295px; }
-  .form-sesion #contacto .numero {
+  .numero {
+    right: 7px;
     width: 280px; }
   /* formulario mi cuenta */
   .mi-cuentafor {
@@ -506,13 +509,13 @@ span {
     .pie-pagina .box p {
       flex-direction: row;
       margin-left: 14px; }
-      .pie-pagina .box p .box2 {
-        margin-top: 5px;
-        margin-left: 90px;
-        width: 125px; }
-        .pie-pagina .box p .box2 .grupo-02 {
-          margin-left: 86px;
-          margin-top: 5px; } }
+  .pie-pagina .box2 {
+    margin-top: 5px;
+    margin-left: 90px;
+    width: 125px; }
+  .pie-pagina .grupo-02 {
+    margin-left: 86px;
+    margin-top: 5px; } }
 
 body {
   font-family: 'Roboto', sans-serif;

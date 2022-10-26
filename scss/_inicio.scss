@@ -137,9 +137,9 @@ button {
     background: 0;
     color:#000;
     cursor: pointer;
-    transition: all .3s;
 
-    button:hover {
+    &:hover {
+        transition: all .3s;
         background: gray;
         color: white;
     }
