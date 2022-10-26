@@ -1,3 +1,7 @@
+.flex-wrap, .cont-accesorios, .cont-catalogo, #elementos-cat {
+  display: flex;
+  flex-wrap: wrap; }
+
 /* logo */
 .inicio-logo img {
   align-items: center;
@@ -255,8 +259,6 @@ span {
   margin-top: 50px;
   margin-right: 5px;
   margin-left: 5px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around; }
 
 .cont-accesorios .img-accesorios img {
@@ -299,8 +301,6 @@ span {
   margin-top: 50px;
   margin-right: 5px;
   margin-left: 5px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around; }
 
 .cont-catalogo .img-catalogo img {
@@ -322,8 +322,6 @@ span {
   margin-top: 50px;
   margin-right: 5px;
   margin-left: 5px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center; }
 
 #elementos-cat .img-catalogo img {

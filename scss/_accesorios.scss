@@ -10,8 +10,7 @@
     margin-top: 50px;
     margin-right: 5px;
     margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
+    @extend .flex-wrap;
     justify-content: space-around;
 }
 
